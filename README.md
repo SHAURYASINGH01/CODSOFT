@@ -1,4 +1,4 @@
-# 🎓 CodSoft Internship - Java Programming (July 2025)
+# 🎓 CodSoft Internship - Java Programming (August 2025)
 
 Welcome to my CodSoft Internship project repository! This contains the tasks I completed as part of the **Java Programming** virtual internship at **CodSoft**, held from **20 August 2025 to 20 September 2025**.
 
