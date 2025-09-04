@@ -71,7 +71,9 @@ It demonstrates core Java concepts and user input handling through a clean, menu
 ```
 
 ## Sample Program
+
 ```bash
+
 Welcome to the ATM Interface!
 
 --- MENU ---
@@ -93,7 +95,7 @@ Welcome to the ATM Interface!
  - Deposited ₹5000
 
  Enter your choice: 5
- Thank you for using SBI ATM!
+ Thank You For Using SBI ATM!
 ```
 
 ## Technologies Used:
@@ -105,6 +107,7 @@ Welcome to the ATM Interface!
 *Control Flow: if-else, switch, while loops*
 
 *Data Handling: Primitive types and method calls*
+
 
 
 
