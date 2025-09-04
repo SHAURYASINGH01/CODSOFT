@@ -60,7 +60,7 @@ It demonstrates core Java concepts and user input handling through a clean, menu
 ## How To Run The Program
 ```bash
 
-  javac ATMInterface.java  // compile
+  javac ATMInterface.java  //compile
 
 ```
 
@@ -107,6 +107,7 @@ Welcome to the ATM Interface!
 *Control Flow: if-else, switch, while loops*
 
 *Data Handling: Primitive types and method calls*
+
 
 
 
