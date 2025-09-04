@@ -1,3 +1,4 @@
+import java.util.*;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -14,7 +15,7 @@ public class NumberGuessGame {
 
         while(keepPlaying) {
             gamesPlayed++;
-            System.out.println("\n--- Game " + gamesPlayed + " ---");
+            System.out.println("\n-- Game " + gamesPlayed + "--");
             int secretNumber = rand.nextInt(100) + 1;
             int maxTries = 5;
             int tries = 0;
@@ -55,18 +56,18 @@ public class NumberGuessGame {
                 }
             }
             
-            // If player used all tries and didn't win
+            // If player used all tries and didn't win.
             if(!won) {
                 System.out.println("Game over! You used all tries");
                 System.out.println("The correct number was: " + secretNumber);
             }
             
-            // Show current stats
+            // Show current stats report
             System.out.println("\nYour Stats:");
             System.out.println("Games played: " + gamesPlayed);
             System.out.println("Games won: " + totalWins);
             
-            // Ask to play again
+            // Ask to play again if want
             System.out.print("Want to play again? (yes/no): ");
             sc.nextLine(); // clear buffer
             String answer = sc.nextLine();
@@ -76,7 +77,7 @@ public class NumberGuessGame {
             }
         }
         
-        // Final results
+        // Final results:
         System.out.println("\nThanks for playing!");
         System.out.println("Final Results:");
         System.out.println("Total games: " + gamesPlayed);
