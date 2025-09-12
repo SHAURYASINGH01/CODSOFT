@@ -26,13 +26,13 @@ class Student {
     }
 }
 
-public class StudentManagementSystem {
+public class StudentManagement {
     private ArrayList<Student> students = new ArrayList<>();
     private Scanner sc = new Scanner(System.in);
     private final String FILE_NAME = "students.txt";
     
     public static void main(String[] args) {
-        StudentManagementSystem sms = new StudentManagementSystem();
+        StudentManagement sms = new StudentManagement();
         sms.loadFromFile();
         sms.run();
     }
