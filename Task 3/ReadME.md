@@ -62,7 +62,7 @@ Student Class
        loadFromFile(): Reads student data from a file.
 </ul>
 
-## How To Use
+## How To Run
 
 ```
 Compile the program:
@@ -74,7 +74,7 @@ Run the program:
 java StudentManagementSystem
 ```
 
-## Follow the menu options
+## Follow the menu options 
 
 ```
     Add Student
@@ -133,4 +133,5 @@ Data Structures: ArrayList for storing student objects
 Control Flow: if-else, switch, while loops.
 
 Validation: Regular expressions for email validation
+
 
