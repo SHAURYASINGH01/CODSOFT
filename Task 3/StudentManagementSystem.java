@@ -44,10 +44,14 @@ public class StudentManagementSystem {
             String choice = sc.nextLine();
             
             switch (choice) {
-                case "1": addStudent(); break;
-                case "2": removeStudent(); break;
-                case "3": searchStudent(); break;
-                case "4": displayAll(); break;
+                case "1": addStudent();
+                break;
+                case "2": removeStudent(); 
+                break;
+                case "3": searchStudent(); 
+                break;
+                case "4": displayAll(); 
+                break;
                 case "5": saveToFile(); System.exit(0);
                 default: System.out.println("Invalid choice!");
             }
