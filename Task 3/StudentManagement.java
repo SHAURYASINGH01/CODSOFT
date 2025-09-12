@@ -3,7 +3,6 @@ import java.util.*;
 
 class Student {
     private String rollNo, name, grade;
-    
     public Student(String rollNo, String name, String grade) {
         this.rollNo = rollNo;
         this.name = name;
