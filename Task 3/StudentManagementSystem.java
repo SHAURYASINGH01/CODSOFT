@@ -10,9 +10,15 @@ class Student {
         this.grade = grade;
     }
     
-    public String getRollNo() { return rollNo; }
-    public String getName() { return name; }
-    public String getGrade() { return grade; }
+    public String getRollNo() { 
+        return rollNo; 
+    }
+    public String getName() {
+        return name; 
+    }
+    public String getGrade() { 
+        return grade; 
+    }
     
     @Override
     public String toString() {
