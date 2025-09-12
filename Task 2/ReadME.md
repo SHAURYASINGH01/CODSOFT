@@ -98,15 +98,14 @@ Welcome to the ATM Interface!
  Thank You For Using SBI ATM!
 ```
 
-## Methods Used:
-
-**Language: Java**
+## Methods Used 
 
 *Input/Output: Scanner class*
 
 *Control Flow: if-else, switch, while loops*
 
 *Data Handling: Primitive types and method calls*
+
 
 
 
