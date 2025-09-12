@@ -1,8 +1,11 @@
-## Student Management System ##
-A Java-based application for managing student records with a console interface, developed as part of the CodeSoft internship program.
+# Student Management System
 
-# About The Project
+ A Java-based application for managing student records with a console interface, developed as part of CodeSoft Internship program.
+ 
+## About The Project
+
 This Student Management System allows educational institutions to efficiently manage student records. It provides functionality to:
+
 ```
 Add new students with detailed information
 
@@ -17,43 +20,50 @@ Edit existing student information
 Save and load student data from files
 ```
 
-# Features 
-Student Class: Represents individual students with attributes like name, roll number, grade, age, and contact information
+## Features 
+- Student Class: Represents individual students with attributes like name, roll number, grade, age, and contact information
 
-Data Management: Full CRUD (Create, Read, Update, Delete) operations for student records
+- Data Management: Full CRUD (Create, Read, Update, Delete) operations for student records
 
-Data Persistence: Save and load student data from text files
+- Data Persistence: Save and load student data from text files
 
-Input Validation: Comprehensive validation for all input fields
+- Input Validation: Comprehensive validation for all input fields
 
-User-Friendly Interface: Clean console-based menu system
+- User-Friendly Interface: Clean console-based menu system.
 
-# Class Structure
+## Class Structure
 Student Class
-Attributes: rollNumber, name, grade, age, email, phone
 
-Methods: Getters, setters, and toString() for displaying student information
+1. Attributes: rollNumber, name, grade, age, email, phone
 
-StudentManagementSystem Class
-Manages an ArrayList of Student objects
+2. Methods: Getters, setters, and toString() for displaying student information.
 
-# Methods:
 
-addStudent(): Adds a new student with validation
+## Student-Management-Class:
 
-removeStudent(): Removes a student by roll number
+- Manages an ArrayList of Student objects
 
-searchStudent(): Finds students by various criteria
+  - ## Methods ##
 
-displayAllStudents(): Shows all student records
+  <ul>
+    
+       addStudent(): Adds a new student with validation
 
-editStudent(): Modifies existing student information
+       removeStudent(): Removes a student by roll number
 
-saveToFile(): Writes student data to a file
+       searchStudent(): Finds students by various criteria
 
-loadFromFile(): Reads student data from a file
+       displayAllStudents(): Shows all student records
 
-# How To Use
+       editStudent(): Modifies existing student information
+
+       saveToFile(): Writes student data to a file
+
+       loadFromFile(): Reads student data from a file.
+</ul>
+
+## How To Use
+
 ```
 Compile the program:
 javac StudentManagementSystem.java
@@ -64,27 +74,29 @@ Run the program:
 java StudentManagementSystem
 ```
 
-# Follow the menu options:
+## Follow the menu options
+
 ```
-Add Student
+    Add Student
 
-Remove Student
+    Remove Student
 
-Search Student
+    Search Student
 
-Display All Students
+    Display All Students
 
-Edit Student
+    Edit Student
 
-Save to File
+    Save to File
 
-Load from File
+    Load from File
 
-Exit
+    Exit.
 ```
+
 
 ## Sample Usage
-text
+
 Welcome to Student Management System!
 ```
 --- MENU ---
@@ -95,29 +107,30 @@ Welcome to Student Management System!
 5. Edit Student
 6. Save to File
 7. Load from File
-8. Exit
+8. Exit.
 
 ```
 
 # Requirements
-Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 8 or higher
 
-Any Java IDE or command line interface
+- Any Java IDE or command line interface
 
 # File Structure
 ```
-text
 StudentManagementSystem/
 ├── Student.java              # Student class definition
 ├── StudentManagementSystem.java  # Main application class
 └── students.txt              # Data file (created after first save)
 ```
 
+## Methodology Used
 
 Input/Output: Scanner class, File I/O
 
 Data Structures: ArrayList for storing student objects
 
-Control Flow: if-else, switch, while loops
+Control Flow: if-else, switch, while loops.
 
 Validation: Regular expressions for email validation
+
