@@ -98,7 +98,7 @@ Welcome to the ATM Interface!
  Thank You For Using SBI ATM!
 ```
 
-## Technologies Used:
+## Methods Used:
 
 **Language: Java**
 
@@ -107,6 +107,7 @@ Welcome to the ATM Interface!
 *Control Flow: if-else, switch, while loops*
 
 *Data Handling: Primitive types and method calls*
+
 
 
 
